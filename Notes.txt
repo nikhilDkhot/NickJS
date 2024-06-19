@@ -1,0 +1,71 @@
+- used to store multiple values in a single variable. 
+- hold various data types.
+- allows for dynamic resizing. 
+- index, starting from 0.
+
+## Declaration of an Array
+Array Literal and Array Constructor.
+
+1. Array Literal
+let eternal = []
+let courses = ["HTML", "CSS", "Javascript", "React"];
+
+2. Array Constructor (JavaScript new Keyword)
+let names = new Array();
+
+let courses = new Array("HTML", "CSS", "Javascript", "React");
+
+let state = new Array(3)
+state[0] = "goa"
+state[1] = "panjab"
+state[2] = "haryana"
+
+>Add Element to the end of Array
+team.push("shreyash")
+
+>Add Element to the beginning
+team.unshift("bumarah")
+
+>Removes and returns the final element
+state.pop()
+
+>Removes and returns the first element
+state.shift()
+
+>Removes 2 elements starting from index 3
+team.splice(3,2)
+
+>Increase and Decrease the Array Length
+team.length= 10
+team.length = 3
+
+## for concatination ','(o/p in array[] form ) and '+'(o/p in plain form) remember diffrence
+
+> Iterating Through Array Elements
+using foreach loop
+team.forEach(
+    function myfun(elements)
+    {
+        console.log(elements);
+});
+
+>Array Concatenation
+
+let merge = team.concat(teamA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

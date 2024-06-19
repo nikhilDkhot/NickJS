@@ -1,1 +1,2 @@
 # NickJS
+author- Nikhil khot
